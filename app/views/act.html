@@ -1,0 +1,14 @@
+<h1 style ="text-align: center">Activités Extra-Professionnelles</h1>
+<br/>
+<h3 style ="text-align: center">Sports</h3>
+    <div ng-repeat="y in act.activite.Sports">
+    <p>{{ y.titre}}</p>
+</div>
+<h3 style ="text-align: center">Autres</h3>
+    <div ng-repeat="y in act.activite.Autres">
+      <p>{{ y.titre}}</p>
+    </div>
+<h3 style ="text-align: center">Formation</h3>
+<div ng-repeat="y in div">
+  <p>{{ y.date + ' : ' + y.titre}}</p>
+</div>

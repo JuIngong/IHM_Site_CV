@@ -1,0 +1,64 @@
+{
+    "Prenom": "Florian",
+    "Nom": "Muller",
+    "Adresse": "62 avenue du Vallon",
+    "CodePostal": "06330",
+    "Ville": "Roquefort les pins",
+    "Tel": "06 57 00 47 68",
+    "Email": "florian.muller.06@gmail.com",
+    "Naissance": "10/11/1992",
+  "formation":[
+    {"date":"2012-2014", "titre":"IUT d'Informatique (semestre décalé), Nice"},
+    {"date":"2010-2012", "titre":"Première Année des Etudes de Santé, Nice"},
+    {"date":"2010", "titre":"Baccalauréat série Scientifique, mention AB"}
+  ],
+  "exppro":[
+    {"date":"Juil 2014 - Aout 2014", "titre":"CDD chez Arwe SERVICE FRANCE à Aéroport de Nice"},
+    {"date":"Nov 2013 - Mars 2014", "titre":"Stage au laboratoire I3S pour la SATT Sud Est"},
+    {"date":"Aout 2010", "titre":"Stage Pratique BAFA"}
+  ],
+  "compinfo":{
+    "logiciel":[
+      {"titre":"Visual Paradigm"},
+      {"titre":"Microsoft Visual Studio"},
+      {"titre":"Eclipse"},
+      {"titre":"3ds Max"}
+    ],
+    "langage":[
+      {"titre":"VB"},
+      {"titre":"C"},
+      {"titre":"C#"},
+      {"titre":"C++"},
+      {"titre":"HTML"},
+      {"titre":"JSP"},
+      {"titre":"JavaScript"},
+      {"titre":"CSS"},
+      {"titre":"SQL"}
+    ],
+    "OS":[
+      {"titre":"Linux"},
+      {"titre":"Windows"}
+    ]},
+  "langues":[
+    {"nom":"Anglais", "lvl":"Bon"},
+    {"nom":"Italien", "lvl":"Debutant"},
+    {"nom":"Chinois","lvl":"Debutant"}
+    ],
+  "activite": {
+  "Sports":[
+    {"titre":"Equitation"},
+    {"titre":"Snowboard"},
+    {"titre":"Randonnée"}],
+
+  "Autres" :[
+    {"titre":"High-tech"},
+    {"titre":"Jeux Vidéo"},
+    {"titre":"Lexture"}
+  ]},
+
+  "divers":[
+      {"date":"2011", "titre":"Brevet d'Aptitude aux Fonctions d'Animateur (BAFA)"},
+      {"date":"2011", "titre":"Permis B & EB"},
+      {"date":"2009", "titre":"Formation aux Premiers Secours (PSC1)"}
+    ]
+}

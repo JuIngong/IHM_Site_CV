@@ -1,0 +1,29 @@
+<h1 style ="text-align: center">Compétences Professionnelles</h1>
+<br/>
+<h3 style ="text-align: center">Informatiques</h3>
+<h4 style ="text-align: center">Logiciels</h4>
+<div ng-repeat="y in comp.logiciel">
+  <p>
+    {{ y.titre}}
+  </p>
+
+</div>
+<h4 style ="text-align: center">Langages</h4>
+<div ng-repeat="y in comp.langage">
+  <p>
+    {{ y.titre}}
+  </p>
+
+</div>
+<h4 style ="text-align: center">Systeme</h4>
+<div ng-repeat="y in comp.OS">
+  <p>
+    {{ y.titre}}
+  </p>
+
+</div>
+
+<h3 style ="text-align: center">Langues</h3>
+<div ng-repeat="y in lang">
+  <p>{{ y.nom + ' : ' + y.lvl}}</p>
+</div>

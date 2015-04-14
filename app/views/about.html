@@ -1,0 +1,39 @@
+<div class="container">
+  <ul>
+    <li>
+      {{ myself.Prenom + ' ' + myself.Nom }}
+    </li>
+
+    <li>
+      {{ myself.Adresse }}
+    </li>
+    <li>
+      {{ myself.CodePostal }}
+    </li>
+    <li>
+      {{ myself.Ville }}
+    </li>
+    <li>
+      {{ myself.Tel }}
+    </li>
+    <li>
+      {{ myself.Email }}
+    </li>
+    <li ng-repeat="y in form">
+      {{ y.date + ' : ' + y.titre}}
+    </li>
+    <li ng-repeat="y in exp">
+      {{ y.date + ' : ' + y.titre}}
+    </li>
+    <li ng-repeat="y in lang">
+      {{ y.nom + ' : ' + y.lvl}}
+    </li>
+    <li ng-repeat="y in act">
+      {{ y.titre + ' : ' + y.liste}}
+    </li>
+    <li ng-repeat="y in act">
+      {{ y.date + ' : ' + y.titre}}
+    </li>
+
+  </ul>
+</div>

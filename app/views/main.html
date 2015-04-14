@@ -1,0 +1,13 @@
+<div class="container">
+  <h1 style ="text-align: center">{{ myself.Prenom + ' ' + myself.Nom }}</h1>
+  <br/>
+  <h3 style ="text-align: center">Adresse</h3>
+    <p>{{ myself.Adresse }}<br/>
+    {{ myself.CodePostal }}<br/>
+    {{ myself.Ville }}</p>
+  <h3 style ="text-align: center">Numéro de telephone</h3>
+    <p>{{ myself.Tel }}</p>
+  <h3 style ="text-align: center">Adresse Mail</h3>
+    <a href="mailto:{{ myself.Email }}">{{ myself.Email }}</a>
+  <br/>
+</div>
